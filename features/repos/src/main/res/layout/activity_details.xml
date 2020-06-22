@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.details.DetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/almost_orange"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnusedAttribute" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_details"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/match_constraint"
+        android:paddingTop="@dimen/size_8"
+        android:paddingBottom="@dimen/size_8"
+        app:layout_constraintBottom_toTopOf="@id/txt_repository_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="RtlSymmetry"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_repository_details" />
+
+    <TextView
+        android:id="@+id/txt_repository_details"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="@dimen/size_44"
+        android:background="@color/almost_black"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/almost_orange"
+        android:textSize="@dimen/font_size_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="16 abertos / 800 fechados "/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/almost_orange"
+        android:indeterminateTintMode="src_atop"
+        android:theme="@style/AppTheme.OrangeAccent"
+        app:layout_constraintBottom_toTopOf="@id/txt_repository_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
