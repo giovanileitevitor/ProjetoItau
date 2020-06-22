@@ -17,26 +17,31 @@ Projeto-Teste-Itau
 # Detalhes de cada tela:
 - Icon
 <p align="center">
-<img src="https://user-images.githubusercontent.com/27828713/85243347-07b8fc80-b418-11ea-93f4-35a11904a836.png">
+<img src="https://user-images.githubusercontent.com/27828713/85243347-07b8fc80-b418-11ea-93f4-35a11904a836.png"
+     width="400">
 </p>
 
 
 - Tela splahs
 <p align="center">
-<img src="https://user-images.githubusercontent.com/27828713/85243351-0a1b5680-b418-11ea-9df9-4bb8b290bca5.png">
+<img src="https://user-images.githubusercontent.com/27828713/85243351-0a1b5680-b418-11ea-9df9-4bb8b290bca5.png"
+     width="400">
 </p>
 
 
 - Tela Repo
 <p align="center">
-<img src="https://user-images.githubusercontent.com/27828713/85243356-0d164700-b418-11ea-9240-f0e224500206.png">
+<img src="https://user-images.githubusercontent.com/27828713/85243356-0d164700-b418-11ea-9240-f0e224500206.png"
+     width="400">
 </p>
 Contem Toolbar com dados dinamicos (Total de repositórios encontrados por página)
 Contém BottomBar com dados dinamicos (Número da pagina atual e controles de navegacao)
 
+
 - Tela Details
 <p align="center">
-<img src="https://user-images.githubusercontent.com/27828713/85243359-10113780-b418-11ea-80b8-2fb7fd06609c.png">
+<img src="https://user-images.githubusercontent.com/27828713/85243359-10113780-b418-11ea-80b8-2fb7fd06609c.png"
+     width="400">
 </p>
 Contem Toolbar com controle de navegacao (back buttom)
 Contém BottomBar com dados dinamicos (Número de pull requests abertos/fechados)
