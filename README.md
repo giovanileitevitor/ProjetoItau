@@ -1,18 +1,20 @@
 # ProjetoItau
 Projeto-Teste-Itau
 
-Projeto: App Teste para processo Itau - Dev Mobile
-Detalhes:
+# Projeto: App Teste para processo Itau - Dev Mobile
+
+# Detalhes:
 - Composto por 3 telas (Splash, Repository, Details)
 - Cada tela possui sua respectiva viewModel
 
-O App está dividido em 4 módulos:
+# O App está dividido em 4 módulos:
 - App: módulo principal que contem as libs e manifestos
 - Data: módulo que contem toda a modelagem de dados, parse de json, entidades, mappers
 - Infra: módulo que contem as configuracoes do Rx, extensoes, etc
 - features: módulo que contem os layouts, activities, viewmodels e demais recursos
 
-Detalhes de cada tela:
+
+# Detalhes de cada tela:
 - Icon
 https://user-images.githubusercontent.com/27828713/85243347-07b8fc80-b418-11ea-93f4-35a11904a836.png
 
