@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f69b35</color>
+    <color name="colorPrimaryDark">#f69b35</color>
+
+    <!-- Custom resources -->
+    <color name="custom_home_toolbar_color">#f69b35</color>
+    <color name="background_color_activity_home">#f8f8f8</color>
+
+    <!-- SplashActivity color resources   -->
+    <color name="background_color_activity_splash_orange">#f69b35</color>
+    <color name="background_color_activity_splash_white">#f8f8f8</color>
+
+    <!-- MainActivity color resources  -->
+    <color name="warm_grey">#8f8f8f</color>
+    <color name="almost_orange">#f69b35</color>
+    <color name="almost_black">#333333</color>
+    <color name="item_subtitle_color">@color/almost_black</color>
+    <color name="item_repository_list_pressed">#8f8f8f</color>
+    <color name="item_repository_liste_normal">@android:color/white</color>
+    <color name="item_repository_username_color">#f69b35</color>
+    <color name="item_repository_go_to_username_pressed_color">#4D8F8F8F</color>
+    <color name="item_repository_go_to_username_normal_color">@android:color/transparent</color>
+
+    <!-- DetailsActivity color resources   -->
+    <color name="item_title_color">#3F51B5</color>
+
+</resources>

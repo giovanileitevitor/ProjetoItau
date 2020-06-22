@@ -1,0 +1,18 @@
+<resources>
+    <!--    Global String resources-->
+    <string name="app_name">ProjetoItau</string>
+
+    <!-- SplashActivity String resources   -->
+    <string name="txt_from">From:</string>
+    <string name="txt_designed_by">Designed by Giovani Leite</string>
+
+    <!-- ReposActivity String resources   -->
+    <string name="main_repositories_toolbar_title">Repositórios Encontrados: %1$s </string>
+    <string name="dialog_no_internet_error_alert_message">Sem conexado de internet. </string>
+    <string name="paginaAtual">Página atual : %1$s </string>
+
+    <!-- DetailsActivity String resurces   -->
+    <string name="main_details_toolbar_title">Informações do Repositório </string>
+    <string name="repository_details">%1$s abertos / %2$s fechados </string>
+
+</resources>
