@@ -1,0 +1,5 @@
+include ':features:repos'
+include ':data'
+include ':infra'
+include ':app'
+rootProject.name = "ProjetoItau"
