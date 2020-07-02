@@ -27,6 +27,7 @@
         android:textColor="@color/item_subtitle_color"
         android:textSize="@dimen/font_size_20"
         android:textStyle="normal"
+        android:visibility="invisible"
         app:layout_constraintEnd_toStartOf="@id/divider"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -132,6 +133,32 @@
         app:layout_constraintStart_toEndOf="@id/img_star"
         app:layout_constraintTop_toTopOf="@id/img_star"
         tools:text="640" />
+
+    <ImageView
+        android:id="@+id/img_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_24"
+        android:src="@drawable/ic_id"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/txt_number_star"
+        app:layout_constraintStart_toEndOf="@id/txt_number_star"
+        app:layout_constraintTop_toTopOf="@id/txt_number_star"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txt_id2"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_2"
+        android:gravity="center"
+        android:maxLength="4"
+        android:textColor="@color/almost_orange"
+        android:textSize="@dimen/font_size_16"
+        app:layout_constraintBottom_toBottomOf="@+id/img_id"
+        app:layout_constraintStart_toEndOf="@+id/img_id"
+        app:layout_constraintTop_toTopOf="@+id/img_id"
+        tools:text="0000" />
 
     <ImageView
         android:id="@+id/img_go_to_user"

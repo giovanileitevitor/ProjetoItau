@@ -47,6 +47,7 @@ class ReposActivity : BaseActivity() {
     private fun showError(error: Boolean){
         if (error) {
             progress_bar.visibility = View.VISIBLE
+
         } else {
             progress_bar.visibility = View.GONE
         }

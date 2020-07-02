@@ -36,7 +36,7 @@ class RepoListAdapter(
     }
 
     private inner class DefaultVH(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var id: TextView = itemView.findViewById(R.id.txt_id)
+        var id: TextView = itemView.findViewById(R.id.txt_id2)
         var photo: ImageView = itemView.findViewById(R.id.img_go_to_user)
         var title: TextView = itemView.findViewById(R.id.txt_title)
         var subtitle: TextView = itemView.findViewById(R.id.txt_subtitle)

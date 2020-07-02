@@ -29,9 +29,9 @@ interface GitServiceAPI {
     Endpoint Tela Repositorio:
     - https://api.github.com/search/repositories?q=language:Java&sort=stars&%20page=1
     - Parametros:
-        - language = "Java" (string)
-        - sort = "stars"    (string)
-        - page = 1          (int)
+        - language = "Kotlin"   (string)    (Default language = "java")
+        - sort = "stars"        (string)    (Default parameter = "stars")
+        - page = 1              (int)       (Default page = 1)
 
 
     Endpoint Tela Detalhes:

@@ -34,6 +34,6 @@ class DetailsActivityViewModel(
 
     override fun doOnError(throwable: Throwable) {
         super.doOnError(throwable)
-        // Erro de Conexão
+        // TODO - next phase
     }
 }
