@@ -11,7 +11,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-        <style name="AppTheme.OrangeAccent">
+    <style name="AppTheme.OrangeAccent">
         <item name="colorAccent">@color/almost_orange</item> <!-- Whatever color you want-->
     </style>
 

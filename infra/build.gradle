@@ -34,7 +34,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
 
-    // Eu
     // Coroutines Assincrono
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
 

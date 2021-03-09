@@ -13,25 +13,29 @@ class ReposActivityViewModel(
     private val repoRepository: RepoRepository
 ) : BaseViewModel() {
 
+    var state = true
     private val _repos = MutableLiveData<List<Repo>>()
 
     val repos: LiveData<List<Repo>> get() = _repos
 
     fun getRepositoriesList(page: Int) {
+
         launchDataLoad {
             when (val resposta = repoRepository.getRepos(page)) {
                 is SuccessResults -> {
                     _repos.value = resposta.body
+                    state = false
                 }
                 is ErrorResults -> {
                     _error.value = true
-                }
-                else -> {
-                    _error.value = true
+                    state = false
                 }
             }
         }
+
     }
+
+
 
     override fun doOnError(throwable: Throwable) {
         super.doOnError(throwable)

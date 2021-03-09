@@ -8,14 +8,10 @@ import kotlinx.coroutines.*
 abstract class BaseViewModel() : DefaultViewModel() {
 
     val loading: LiveData<Boolean> get() = _loading
+    protected val _loading = MutableLiveData<Boolean>()
 
     val error: LiveData<Boolean> get() = _error
-
-    protected val _loading =
-        MutableLiveData<Boolean>()
-
-    protected val _error =
-        MutableLiveData<Boolean>()
+    protected val _error = MutableLiveData<Boolean>()
 
     protected fun launchDataLoad(
         block: suspend () -> Unit

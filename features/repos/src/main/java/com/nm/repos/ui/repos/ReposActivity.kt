@@ -38,6 +38,11 @@ class ReposActivity : BaseActivity() {
 
     }
 
+    override fun onRestart() {
+        super.onRestart()
+        viewModel.getRepositoriesList(position)
+    }
+
     private fun setupActions(){
         bindToVM(viewModel.error, ::showError)
         bindToVM(viewModel.loading, ::processLoading)

@@ -11,7 +11,6 @@ class AppItau : MultiDexApplication(), KoinComponent {
 
     override fun onCreate() {
         super.onCreate()
-
         iniDI()
     }
 
